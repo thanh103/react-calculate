@@ -32,6 +32,7 @@ function App() {
           Contact
         </a>
       </div>
+
       <div className="title">
         <h1>CALCULATE TWO NUMBERS</h1>
       </div>
@@ -43,6 +44,7 @@ function App() {
             type="number"
             onChange={(event) => setA(event.target.value)}
           ></input>
+
           <div className="number">
             <select
               className="sign"
