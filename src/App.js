@@ -11,7 +11,6 @@ function App() {
     const numberA = parseInt(a);
     const numberB = parseInt(b);
     let ctemp = 0;
-
     if (sign === "+") {
       ctemp = numberA + numberB;
     } else if (sign === "-") {
